@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Phillip</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/60a0801f2f.js" crossorigin="anonymous"></script>
+ </head>
+<body>
+
+    <!------------------------MENU CABELCALHO------------------------------------------------------------>
+
+    <header id="header">
+        <div class="container">
+
+            <div class="flex">
+
+                <a href="index.html"><i class="fa-regular fa-user"></i></a>
+
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">HOME</a></li>
+                        <li><a href="#">SOBRE</a></li>
+                        <li><a href="#portifolio-part">PORTIFÓLIO</a></li>
+                    </ul>
+                </nav>
+
+                <div class="btn-contato">
+                    <a href="#"><button>CONTATO</button></a>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!------------------------Banner--------------------------------------------------------------->
+
+    <section class="banner">
+        <h1>Phillip <span>Hermann</span></h1>
+    </section>
+
+    <!------------------------PORTIFOLIO PARTE----------------------------------------------------->
+
+    <section id="portifolio-part">
+    <div class="container-slider">
+        <button id="prev-button"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="container-images">
+          <img src="/imgs/projeto01.png" alt="projeto01" class="slider on">
+          <img src="/imgs/projeto02.png" alt="projeto02" class="slider">
+        </div>
+        <button id="next-button"><i class="fa-solid fa-chevron-right"></i></button>
+    </section>
+
+    <!--------------------------------------------------------------------------------------------->
+    
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>P.Hermann</h1>
+                <p>Software development</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <ul class="footer-list">
+                <li>
+                    <h3>Tecnologias</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Java</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Python</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">HTML & CSS & JS</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Sobre mim</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">GitHub</a>
+                </li>
+                <li>
+                    <a href="/portfolioPage.html" class="footer-link">Projetos</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Currículo</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Contato</h3>
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2024 Phillip Hermann
+        </div>
+    </footer>
+
+<!--------------------------------------------------------------------------------------------->
+
+<script src="menu.js"></script>
+
+</body>
+</html>
